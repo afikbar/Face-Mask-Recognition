@@ -41,7 +41,7 @@ for fnames, images, labels in test_dataloader:
 
         _, pred = torch.max(outputs, 1)
         y_pred = np.append(y_pred, pred.to('cpu').numpy())
-        filenames = np.append(filenames, fnames.to('cpu').numpy())
+        filenames = np.append(filenames, fnames)
 
 # Example (A VERY BAD ONE):
 prediction_df = pd.DataFrame(zip(filenames, y_pred), columns=['id', 'label'])
