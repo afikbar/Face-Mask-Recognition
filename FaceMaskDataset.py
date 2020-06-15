@@ -32,7 +32,7 @@ class FaceMaskDataset(Dataset):
         Args:
             root_dir (string): Directory with all the images.
             have_label (boolean): Flag for images having the labels in their names.
-            phase (string): test or eval (For transformations).
+            phase (string): train or eval (For transformations).
         """
         self.root_dir = root_dir
         self.have_label = have_label
