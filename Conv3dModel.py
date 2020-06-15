@@ -6,7 +6,7 @@ import torchvision.transforms as transforms
 
 
 class CNN(nn.Module):
-    def __init__(self):
+    def __init__(self, num_class):
         super(CNN, self).__init__()
         self.layer1 = nn.Sequential(
             nn.Conv2d(3, 16, kernel_size=3, padding=1),
@@ -43,7 +43,7 @@ class CNN(nn.Module):
             nn.BatchNorm2d(32),
             nn.ReLU(),
         )
-        self.fc = nn.Linear(512,10)
+        self.fc = nn.Linear(25088, num_class)
         self.maxpool = nn.MaxPool2d(2)
         self.avgpool = nn.AvgPool2d(1)
         
