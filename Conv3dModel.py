@@ -43,7 +43,7 @@ class CNN(nn.Module):
             nn.BatchNorm2d(32),
             nn.ReLU(),
         )
-        self.fc = nn.Linear(25088, num_class)
+        self.fc = nn.Linear(32*28*28, num_class)
         self.maxpool = nn.MaxPool2d(2)
         self.avgpool = nn.AvgPool2d(1)
         
