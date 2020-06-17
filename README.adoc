@@ -205,7 +205,7 @@ We've used Adam-Weighted Optimizer, along with Learning Rate Scheduler.
 Our initial learning rate was `0.001`, and scheduler gamma is `0.1`.
 
 ==== Regularization
-We found out that Dropout consistently preformed worse (Possibly due to Batch normalization). +
+We found out that Dropout didn't affect results at all (Possibly due to Batch normalization). +
 Our optimizer utilizes Weight decay, which limits the learned change in weights for each batch, we've used the default value of `0.01`.
 
 
