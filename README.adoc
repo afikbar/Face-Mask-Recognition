@@ -44,7 +44,8 @@ To obtain better generalization, we've used several transformations:
 ==== Model Architecture
 Our neural network consists of 7 Convolutional layers with batch normalization & ReLU as activation function, 1 average pool, and 1 fully connected layers.
 
-[uml,file="uml-example.png"]
+////
+[uml,file="cnn_arch.png"]
 --
 queue Transform [
 Preprocessing
@@ -150,7 +151,10 @@ FC -> Output
 Output - Softmax
 Softmax -> Class
 --
+////
 
+.CNN Architecture
+image::cnn_arch.png[]
 
 ===== Loss Function
 We've used Cross Entropy loss function.
