@@ -184,6 +184,7 @@ We found out that architecture changes had slight improvements over the data, an
 
 === MobileNet
 
+
 ==== Preprocessing
 To obtain better generalization, we've used several transformations:
 
@@ -194,7 +195,10 @@ To obtain better generalization, we've used several transformations:
 
 ==== Model Architecture
 We've used 
-https://arxiv.org/pdf/1801.04381.pdf[MobileNet V2].
+https://arxiv.org/pdf/1905.02244.pdf[MobileNet V3].
+
+.Specification for MobileNetV3
+image::mobilenet_arch_table.png[,50%]
 
 
 ===== Loss Function

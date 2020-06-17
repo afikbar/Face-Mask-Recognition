@@ -3,7 +3,6 @@ import torchvision
 
 import torch.nn as nn
 import torch.nn.functional as F
-from torchvision.models import mobilenet_v2
 
 import numpy as np
 
