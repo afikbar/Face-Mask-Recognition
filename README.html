@@ -598,7 +598,7 @@ Our initial learning rate was <code>0.001</code>, and scheduler gamma is <code>0
 <div class="sect3">
 <h4 id="trueregularization-2"><a class="anchor" href="#trueregularization-2"></a>Regularization</h4>
 <div class="paragraph">
-<p>We found out that Dropout consistently preformed worse (Possibly due to Batch normalization).<br>
+<p>We found out that Dropout didn&#8217;t affect results at all (Possibly due to Batch normalization).<br>
 Our optimizer utilizes Weight decay, which limits the learned change in weights for each batch, we&#8217;ve used the default value of <code>0.01</code>.</p>
 </div>
 </div>
@@ -624,11 +624,6 @@ PyTorch has an implementation of MobileNetV2, but we&#8217;ve found out that V3 
 </div>
 </div>
 </div>
-</div>
-</div>
-<div id="footer">
-<div id="footer-text">
-Last updated 2020-06-18 01:24:39 +0300
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">

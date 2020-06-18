@@ -5,6 +5,7 @@
 :lang: en
 :!toc:
 :!numbered:
+:nofooter:
 
 [.text-right]
 _Shahar Rotem - 206485898 +
