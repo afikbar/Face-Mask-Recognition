@@ -8,8 +8,8 @@
 :nofooter:
 
 [.text-right]
-_Shahar Rotem - 206485898 +
-Afik Bar - 311121289_
+_Shahar Rotem +
+Afik Bar_
 
 == Data
 The dataset contains `24,345` facial image, splitted to train and test sets.
